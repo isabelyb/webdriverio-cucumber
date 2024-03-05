@@ -1,0 +1,29 @@
+{
+  "name": "webdriverio-cucumber",
+  "description": "Tutotial",
+  "version": "1.0.0",
+  "main": "wdio.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isabelyb/webdriverio-cucumber.git"
+  },
+  "author": "Isabely",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isabelyb/webdriverio-cucumber/issues"
+  },
+  "homepage": "https://github.com/isabelyb/webdriverio-cucumber#readme",
+  "dependencies": {
+    "@wdio/cli": "^8.32.4",
+    "selenium-standalone": "^9.3.3",
+    "webdriverio": "^8.32.4"
+  },
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^8.32.4",
+    "@wdio/local-runner": "^8.32.4",
+    "@wdio/spec-reporter": "^8.32.4"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}

@@ -1,2 +1,2 @@
 # webdriverio-cucumber
-Tutotial
+Tutorial
